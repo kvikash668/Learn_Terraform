@@ -20,7 +20,7 @@ terraform {
     }
   }
 }
-
+/*
 # Configure the AWS Provider
 provider "aws" {
   region     = "us-west-2"
@@ -30,6 +30,7 @@ provider "aws" {
 resource "aws_vpc" "peer" {
   cidr_block = "10.1.0.0/16"
 }
+*/
 /*
 data "aws_ami" "ubuntu" {
   most_recent = true
